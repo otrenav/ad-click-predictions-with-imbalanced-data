@@ -186,7 +186,7 @@ Taking into account precision (specificity) and recall (sensitivity) is much bet
 For all the tests I used Stratified K-Fold Sampling with 5 splits. As we've seen the uniform class weights are inadequate for this type of problems and are included here only for reference of what you had before.
 
 | Case | Class weights | Sampling Technique | Negative Precision | Positive Recall | Accuracy |
-|-|-|-|-|-|-|
+|------|---------------|--------------------|--------------------|-----------------|----------|
 | 1 | Uniform  | Simple | 0.99 | 0.00 | 0.994159 |
 | 2 | Balanced | Simple | 1.00 | 0.50 | 0.709073 |
 | 3 | Balanced | SMOTE + ENN | 1.00 | 0.49 | 0.720058 |
@@ -199,14 +199,14 @@ As can be seen there no one "perfect" solution. You have trade-offs that you mus
 #### Case 1
 
 | | Predicted Negative | Predicted Positive |
-|-|-|-|
+|-|--------------------|--------------------|
 | Actually Negative | 144,503 | 0 |
 | Actually Positive | 849 | 0 |
 
 #### Case 2
 
 | | Predicted Negative | Predicted Positive |
-|-|-|-|
+|--|--|--|
 | Actually Negative | 102,307 | 42,196 |
 | Actually Positive | 421 | 428 |
 
