@@ -5,7 +5,7 @@
 - Written for client (JL, CM)
 - January, 2017
 
-Jack approached me to help him work in an imbalanced problem regarding ad clicks. He wants to understand how to properly sample data so that his models produce reliable results. This document is a basic explanation on how to deal with such problems and code is attached to exemplify.
+The client approached me to help him work in an imbalanced problem regarding ad clicks. He wants to understand how to properly sample data so that his models produce reliable results. This document is a basic explanation on how to deal with such problems and code is attached to exemplify.
 
 ## Project context
 
