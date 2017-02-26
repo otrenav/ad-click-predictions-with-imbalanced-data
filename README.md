@@ -206,21 +206,21 @@ As can be seen there no one "perfect" solution. You have trade-offs that you mus
 #### Case 2
 
 | | Predicted Negative | Predicted Positive |
-|--|--|--|
+|-|--------------------|--------------------|
 | Actually Negative | 102,307 | 42,196 |
 | Actually Positive | 421 | 428 |
 
 #### Case 3
 
 | | Predicted Negative | Predicted Positive |
-|-|-|-|
+|-|--------------------|--------------------|
 | Actually Negative | 104,246 | 40,257 |
 | Actually Positive | 433 | 416 |
 
 #### Case 4
 
 | | Predicted Negative | Predicted Positive |
-|-|-|-|
+|-|--------------------|--------------------|
 | Actually Negative | 95,367 | 49,136 |
 | Actually Positive | 387 | 462 |
 
@@ -231,14 +231,14 @@ As can be seen, SMOTE + ENN bring the number of positive samples up while UR mak
 #### Case 3
 
 | | Negatives | Positives |
-|-|-|-|
+|-|-----------|-----------|
 | Before resample | 337,059 | 2,095 |
 | After resample | 337,059 | 221,147 |
 
 #### Case 4
 
 | | Negatives | Positives |
-|-|-|-|
+|-|-----------|-----------|
 | Before resample | 337,059 | 2,095 |
 | After resample | 2,095 | 2,095 |
 
