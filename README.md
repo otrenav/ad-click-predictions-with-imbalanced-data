@@ -6,7 +6,6 @@
 # A Strategy for Predicting Ad Clicks with Unbalanced Data
 
 - Written by Omar Trejo
-- Written for client (JL, CM)
 - January, 2017
 
 The client approached me to help him work in an imbalanced problem regarding ad
